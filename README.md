@@ -1,4 +1,4 @@
-**# brainageRpipeline-**
+****# brainageRpipeline-****
 **Description**
 The pipeline offers an efficient script to run target NIfTI files through the brainageR machine learning model and output biological brain age. The script processes subject data files and calculates predictions outputting them into organized directories. 
 brainageR 
