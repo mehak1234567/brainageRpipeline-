@@ -17,11 +17,13 @@ https://github.com/james-cole/brainageR
 - Name raw and output files as “raw” and “output” within the RAW_DIR and OUTPUT_DIR path directories
 
 **Usage**
+
 Once the prerequisites are installed, you can run the pipeline shell script with the following command: 
 ./process_sample.sh 
 
 
 **Output**
+
 - Individual subject outputs, including predicted biological age, tissue volumes and DICOM images, are output within the output folder mapped within TOP_DIR to OUTPUT_DIR 
 - All output biological brain age is combined in combined_output file within RAW_DIR
 - Registry to image templates 
@@ -29,10 +31,12 @@ Once the prerequisites are installed, you can run the pipeline shell script with
 
   
 **Flags**
+
 -h | –help denotes the help flag, reiterating parts of this readme 
 
 
 **Testing Cases**
+
 Store a single target NIfTI MRI image in the specified subject directory, either of the following cases can be handled: 
 - Single target NIfTI MRI image stored with the naming convention “2_T1_.nii” 
 - Single target NIfTI MRI image stored without naming convention still containing “T1.nii”
