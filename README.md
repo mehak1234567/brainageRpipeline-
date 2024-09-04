@@ -1,7 +1,10 @@
 # brainageRpipeline-
 Description 
 The pipeline offers an efficient script to run target NIfTI files through the brainageR machine learning model and output biological brain age. The script processes subject data files and calculates predictions outputting them into organized directories. 
-brainageR Software & Prereqs 
+brainageR 
+
+
+Software & Prereqs 
 Read the brainageR readme to download required software, dependencies and learn more about the model: https://github.com/james-cole/brainageR
 Pipeline Prereqs
 Recommended to have only one NIfTI (.nii) files in the folder specifies in subject_list 
